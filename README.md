@@ -11,7 +11,8 @@ Adopted from Falcon Dai;
 Modified by Holly Orr:
 - corrected bug that causes index out of range when status = ZERO
 - updated to open the file in universal-newline mode
-        reader = csv.DictReader(open('test.csv', 'rU'), dialect=csv.excel_tab)
+
+		reader = csv.DictReader(open('test.csv', 'rU'), dialect=csv.excel_tab)
 
 Description
 ----------
